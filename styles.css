@@ -1,0 +1,177 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    color:#fff;
+    line-height: 1.25;
+}
+
+body
+{background-color: hsl(204, 43%, 93%);
+    
+
+}
+
+main
+{   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 105px 350px 10px 350px;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 9px;
+
+
+}
+footer
+{margin: 10px 150px;}
+
+h1
+{
+    color: #fff;
+    display: inline-block;
+}
+h2
+{   color: #1ca39e;
+
+}
+h3
+{
+    color: #bedd32;
+}
+
+p
+{color: #bec1cb;
+width: 80%;}
+
+li
+{list-style:none;
+font-weight: 400;
+font-size: 14px;
+color: #afeaec;}
+
+span
+{   display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #afeaec;
+    transform: translate(0px,-6.5px);
+}
+
+small
+{   font-size: 15.5px;
+    color: #afeaec;
+
+}
+
+
+.container1
+{   flex-basis: 100%;
+    margin: 10px 0px ; 
+    padding-left: 40px;
+
+}
+.container2
+{   display: flex;
+    flex-direction: row;
+    border-radius: 9px;
+    
+
+}
+
+.container3
+{   max-width: 50%;
+    background-color: #2BB3B1;
+    padding: 40px;
+    flex-basis: 50%;
+    border-bottom-left-radius: 9px;    
+}
+
+.container4
+{   max-width: 50%;
+    background-color: #4ABEBD;
+    padding: 40px;
+    flex-basis: 50%;
+    border-bottom-right-radius: 9px;
+ 
+    
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 16px;
+    background: #BFDF32;
+    padding: 10px 90px 10px 90px;
+    text-decoration: none;
+    border: 0px solid ;
+}
+  
+.btn:hover {
+    background: #BFDF32;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:700px)
+{   
+main
+{   
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px 10px 22px;
+    width: 90%;
+    align-self: center;
+
+}
+
+.container1 
+{   
+    order: 1;
+    width: 90%;
+    padding-left: 50px;
+    padding-right: 15px;
+
+
+
+}
+.container2
+{   display: flex;
+    flex-direction: column;
+    order: 2;
+    max-width: 90%;
+    margin-left: 15px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+
+.container3
+{   
+    order: 3;
+    max-width: 90%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0px;
+}
+
+.container4
+{   order: 4;
+    max-width: 90%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.attribution
+{   
+    order: 5;
+    width: 125px;
+    height: 200px;
+}
+a
+{display: block;}
+
+
+}
